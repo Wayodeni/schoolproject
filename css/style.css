@@ -101,7 +101,37 @@
   margin: 5vh auto 0;
   width: 80%;
   height: 90px;
-  background-color: wheat;
+/*  background-color: wheat;*/
+  font-family: Roboto, sans-serif;
+  text-align: center;
+}
+
+.recent-articles > p {
+  display: block;
+  font-weight: 500;
+}
+
+.recent-articles-names {
+  font-size: 15px;
+  text-align: left;
+}
+
+.recent-articles-names > li:nth-child(odd) {
+  background-color: #f0f0f0;
+  display: block;
+  width: 100%;
+}
+
+.recent-articles-names > li:nth-child(even) {
+  background-color: #dedede;
+  display: block;
+  width: 100%;
+}
+
+.recent-articles-names > li > a {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
 }
 
 
