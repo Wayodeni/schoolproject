@@ -104,28 +104,7 @@
   background-color: wheat;
 }
 
-.article {
-  text-decoration: none;
-  display: flex;
-  justify-content: space-between;
-}
 
-.article 
-  .author, 
-  .name, 
-  .publication-date {
-    display: inline-block;
-  }
-  
-.article 
-  .author {
-    max-width: 30px;
-  }
-  
-.article 
-  .name {
-    max-width: 300px;
-  }
 /* Page content. */
 
 /* Change parameters for smaller screens */
