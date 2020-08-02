@@ -10,7 +10,7 @@
 /* Обертка для контента. */
 .wrapper {
   box-shadow: 0 0 20px rgba(0,0,0,0.5);
-  height: 100vh;
+  height: 100%;
   margin: 0 auto;
   max-width: 750px;
   min-width: 300px;
@@ -97,6 +97,7 @@
   font-weight: 900;
 }
 
+/*Недавние статьи*/
 .recent-articles {
   margin: 5vh auto 0;
   width: 80%;
@@ -114,17 +115,16 @@
 .recent-articles-names {
   font-size: 15px;
   text-align: left;
+  display: block;
 }
 
 .recent-articles-names > li:nth-child(odd) {
   background-color: #f0f0f0;
-  display: block;
   width: 100%;
 }
 
 .recent-articles-names > li:nth-child(even) {
   background-color: #dedede;
-  display: block;
   width: 100%;
 }
 
@@ -133,7 +133,49 @@
   color: black;
   padding: 5px;
 }
+/*Недавние статьи*/
 
+/*Недавние книги*/
+.recent-books {
+  margin: 5vh auto 0;
+  width: 80%;
+  height: 500px;
+/*  background-color: wheat;*/
+  font-family: Roboto, sans-serif;
+  text-align: justify;
+}
+
+/*.recent-books >*/ p {
+  display: block;
+  font-weight: 500;
+}
+
+/*.recent-books >*/ .book-preview {
+  display: inline-block;
+  width: 150px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  box-shadow: 7px 5px 10px 0px rgba(0,0,0,0.5);
+}
+
+/*.book-preview >*/ .author-name {
+  display: inline-block;
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  width: 150px;
+  padding-bottom: 5px;
+}
+
+/*.book-preview >*/ .book-title {
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+
+/*.book-preview >*/ .book-description {
+  font-size: 14px;
+}
+
+/*Недавние книги*/
 
 /* Page content. */
 
