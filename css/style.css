@@ -97,6 +97,12 @@
   font-weight: 900;
 }
 
+
+.recent-block-name {
+  display: block;
+  font-weight: 500;
+}
+
 /*Недавние статьи*/
 .recent-articles {
   margin: 5vh auto 0;
@@ -105,11 +111,6 @@
 /*  background-color: wheat;*/
   font-family: Roboto, sans-serif;
   text-align: center;
-}
-
-.recent-articles > p {
-  display: block;
-  font-weight: 500;
 }
 
 .recent-articles-names {
@@ -142,23 +143,31 @@
   height: 500px;
 /*  background-color: wheat;*/
   font-family: Roboto, sans-serif;
-  text-align: justify;
+  text-align: center;
 }
 
-/*.recent-books >*/ p {
+.recent-block-name {
   display: block;
   font-weight: 500;
 }
 
-/*.recent-books >*/ .book-preview {
+.book-preview {
   display: inline-block;
   width: 150px;
-  background-color: #f0f0f0;
+/*  background-color: #f0f0f0;*/
   padding: 10px;
-  box-shadow: 7px 5px 10px 0px rgba(0,0,0,0.5);
+  box-shadow: 6px 6px 10px -5px rgba(0,0,0,0.5);
 }
 
-/*.book-preview >*/ .author-name {
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.author-name {
   display: inline-block;
   font-family: Roboto, sans-serif;
   font-size: 13px;
@@ -166,12 +175,12 @@
   padding-bottom: 5px;
 }
 
-/*.book-preview >*/ .book-title {
+.book-title {
   font-size: 14px;
   padding-bottom: 5px;
 }
 
-/*.book-preview >*/ .book-description {
+.book-description {
   font-size: 14px;
 }
 
