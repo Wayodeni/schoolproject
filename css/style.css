@@ -182,6 +182,36 @@
 
 /*Недавние книги*/
 
+/*Последние видео*/
+
+.recent-videos {
+  margin: 5vh auto 0;
+  width: 80%;
+  height: 500px;
+/*  background-color: wheat;*/
+  font-family: Roboto, sans-serif;
+  text-align: center;
+}
+
+.video-preview {
+  display: inline-block;
+  width: 130px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  box-shadow: 6px 6px 10px -5px rgba(0,0,0,0.5);
+}
+
+.video-title {
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+
+.video-description {
+  font-size: 14px;
+}
+
+/*Последние видео*/
+
 /* Page content. */
 
 /* Change parameters for smaller screens */
