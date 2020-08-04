@@ -81,13 +81,13 @@
 
 /* Page content. */
 .content {
+  text-align: center;
   padding: 10px 5px;
 }
 
 .motd {
   font-size: 15px;
   font-weight: 400;
-  text-align: center;
 }
 
 .motd-mainword {
@@ -95,6 +95,12 @@
   font-weight: 900;
 }
 
+.recent {
+  margin: 5vh auto 0;
+  width: 80%;
+  height: 500px;
+/*  background-color: wheat;*/
+}
 
 .block-name {
   padding-bottom: 10px;
@@ -103,13 +109,6 @@
 }
 
 /*Недавние статьи*/
-.recent {
-  margin: 5vh auto 0;
-  width: 80%;
-  height: 500px;
-/*  background-color: wheat;*/
-  text-align: center;
-}
 
 .recent-articles-names {
   font-size: 15px;
