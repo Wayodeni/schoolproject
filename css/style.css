@@ -213,7 +213,15 @@
 /*Последние видео*/
 
 /* Page content. */
-
+.footer {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  color: lightgray;
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  padding: 10px;
+}
 /* Change parameters for smaller screens */
 @media screen and (max-width: 409px) {
   
