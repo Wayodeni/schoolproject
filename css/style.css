@@ -98,17 +98,17 @@
 }
 
 
-.recent-block-name {
+.block-name {
   padding-bottom: 10px;
   display: block;
   font-weight: 500;
 }
 
 /*Недавние статьи*/
-.recent-articles {
+.recent {
   margin: 5vh auto 0;
   width: 80%;
-  height: 90px;
+  height: 500px;
 /*  background-color: wheat;*/
   font-family: Roboto, sans-serif;
   text-align: center;
@@ -138,14 +138,6 @@
 /*Недавние статьи*/
 
 /*Недавние книги*/
-.recent-books {
-  margin: 5vh auto 0;
-  width: 80%;
-  height: 500px;
-/*  background-color: wheat;*/
-  font-family: Roboto, sans-serif;
-  text-align: center;
-}
 
 .book-preview {
   display: inline-block;
@@ -183,15 +175,6 @@
 /*Недавние книги*/
 
 /*Последние видео*/
-
-.recent-videos {
-  margin: 5vh auto 0;
-  width: 80%;
-  height: 500px;
-/*  background-color: wheat;*/
-  font-family: Roboto, sans-serif;
-  text-align: center;
-}
 
 .video-preview {
   display: inline-block;
