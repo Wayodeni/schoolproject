@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
 
-/* Сброс отступов. */
+/* Reset margin & paddings */
 * {
   margin: 0;
   padding: 0;
 }
-/* Сброс отступов. */
+/* End of Reset margin & paddings */
 
-/* Обертка для контента. */
+/* Content wrapper */
 .wrapper {
   box-shadow: 0 0 20px rgba(0,0,0,0.5);
   height: 100%;
@@ -17,9 +17,9 @@
   padding: 0 4px;
   font-family: Roboto, sans-serif;
 }
-/* Обертка для контента. */
+/* End of Content wrapper */
 
-/* Header сайта. */
+/* Site header */
 .header {
   height: 80px;
   margin: 0 auto;
@@ -49,9 +49,9 @@
   position: relative;
   top: 5px;
 }  
-/* Header сайта. */
+/* End of Site header */
 
-/* Кнопки в меню навигации. */
+/* Navbuttons */
 .navbutton {
   background-color: #3a9f37;
   border-radius: 5px;
@@ -77,7 +77,7 @@
 .navbutton:active {
   background-color: white;
 }
-/* Кнопки в меню навигации. */
+/* End of Navbuttons */
 
 /* Page content. */
 .content {
@@ -108,7 +108,7 @@
   font-weight: 500;
 }
 
-/*Недавние статьи*/
+/*Recent articles*/
 
 .recent-articles-names {
   font-size: 15px;
@@ -131,9 +131,9 @@
   color: black;
   padding: 5px;
 }
-/*Недавние статьи*/
+/* End of Recent articles*/
 
-/*Недавние книги*/
+/* Recent books */
 
 .book-preview {
   display: inline-block;
@@ -167,9 +167,9 @@
   font-size: 14px;
 }
 
-/*Недавние книги*/
+/* End of Recent books*/
 
-/*Последние видео*/
+/* Recent videos */
 
 .video-preview {
   display: inline-block;
@@ -188,9 +188,10 @@
   font-size: 14px;
 }
 
-/*Последние видео*/
+/* End of Recent videos */
 
-/* Page content. */
+/* End of Page content. */
+
 .footer {
   font-size: 14px;
   color: lightgray;
@@ -199,6 +200,9 @@
   font-weight: 400;
   padding: 10px;
 }
+
+/* End of wrapper */
+
 /* Change parameters for smaller screens */
 @media screen and (max-width: 409px) {
   
@@ -221,4 +225,4 @@
     font-size: 11px;
   }
 }
-/* Change parameters for smaller screens */
+/* End of Change parameters for smaller screens */
